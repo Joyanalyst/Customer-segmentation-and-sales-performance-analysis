@@ -29,3 +29,25 @@ Analysis of online transactional dataset
 #### •	After I found the insights, I used AI to help me explain them, making sure my report was easy for a manager to read and act on.
 #### •	I fed my final numbers into the AI to help me draft a quick executive summary that highlights the most important things the business needs to do next.
 
+## Executive Summary
+#### The analysis of the online transactional dataset shows that high-value customers contribute 52.7% of total revenue, with a repeat-purchase rate of 65.2%. The business recorded September and December as peak months, with Tuesdays and Thursdays as the highest purchase days between 10 am and 3 pm.
+
+<img width="1113" height="603" alt="Screenshot 2026-03-19 111015" src="https://github.com/user-attachments/assets/4ecb852c-2048-4497-94f9-c2ca5be00dab" />
+
+## Insights
+### 1. Seasonality
+#### Monthly sales figures vary significantly, ranging from lower levels in early months to peak performance in September and December. This pattern is mirrored in the number of orders, as shown (September and December recorded the highest revenue of ~$500,000 to $600,000, with the number of orders ranging from 1,600 to 2,500), indicating that revenue growth is largely driven by increased transaction volume rather than just higher order value. The strong alignment between revenue and order count suggests that customer activity (frequency of purchases) is the primary driver of sales performance, with peak periods likely influenced by seasonal demand, promotions, or holiday shopping behavior.
+
+### 2. Peak Performance Windows
+#### The analysis shows that peak transaction volume occurs between 10:00 AM and 3:00 PM, particularly on Tuesdays and Thursdays. Marketing emails sent at 10:00 AM are most likely to convert while users are in their buying window.
+
+<img width="1093" height="621" alt="Screenshot 2026-03-19 111034" src="https://github.com/user-attachments/assets/5436aaad-7fd2-4c9f-af26-124db801f45d" />
+
+### 3. Customer Segmentation
+#### Customer segmentation reveals that a small group of high-value and loyal customers contributes a significant portion of total revenue, while a larger share of customers falls into the at-risk category. This indicates an uneven revenue distribution where business performance depends heavily on a limited number of customers.
+
+
+
+
+
+
