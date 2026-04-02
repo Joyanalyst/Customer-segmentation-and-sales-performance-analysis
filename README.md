@@ -23,11 +23,11 @@ Analysis of online transactional dataset
 #### •	Country: Country where the transaction occurred
 
 ## Generative AI integration and workflows
-#### •	I shared my dataset’s column names with ChatGPT to help me generate 10 targeted analytical questions that uncovered high-impact variables in the dataset.
-#### •	 I used AI to help me decide which KPIs (Key Performance Indicators) are most relevant to a retail business, such as average order value and customer purchase frequency.
-#### •	 I used AI to help me write the formulas (Excel/DAX/SQL) needed to find errors in the data, like missing and negative prices or duplicate orders.
-#### •	After I found the insights, I used AI to help me explain them, making sure my report was easy for a manager to read and act on.
-#### •	I fed my final numbers into the AI to help me draft a quick executive summary that highlights the most important things the business needs to do next.
+#### - Leveraged generative AI to formulate targeted business questions, improving the depth and direction of exploratory data analysis.
+#### - Applied AI support to identify and validate key retail KPIs (e.g., customer purchase frequency, average order value) aligned with business objectives.
+#### - Utilized AI to accelerate data cleaning by detecting anomalies such as missing values, duplicate records, and invalid pricing entries.
+#### - Enhanced insight communication by refining analytical findings into clear, business-focused narratives for non-technical stakeholders.
+#### - Streamlined reporting by generating executive summaries that highlight key trends, risks, and actionable recommendations.
 
 ## Executive Summary
 #### The analysis of the online transactional dataset shows that high-value customers contribute 52.7% of total revenue, with a repeat-purchase rate of 65.2%. The business recorded September and December as peak months, with Tuesdays and Thursdays as the highest purchase days between 10 am and 3 pm.
@@ -35,16 +35,48 @@ Analysis of online transactional dataset
 <img width="1113" height="603" alt="Screenshot 2026-03-19 111015" src="https://github.com/user-attachments/assets/4ecb852c-2048-4497-94f9-c2ca5be00dab" />
 
 ## Insights
-### 1. Seasonality
-#### Monthly sales figures vary significantly, ranging from lower levels in early months to peak performance in September and December. This pattern is mirrored in the number of orders, as shown (September and December recorded the highest revenue of ~$500,000 to $600,000, with the number of orders ranging from 1,600 to 2,500), indicating that revenue growth is largely driven by increased transaction volume rather than just higher order value. The strong alignment between revenue and order count suggests that customer activity (frequency of purchases) is the primary driver of sales performance, with peak periods likely influenced by seasonal demand, promotions, or holiday shopping behavior.
+### 1. Sales are highly seasonal and driven by order volume
+#### Revenue peaks in September–December (~$500K–$600K) with 1,600–2,500 orders, showing that sales growth is primarily driven by increased transaction volume rather than higher order value.
+#### Business performance is highly dependent on seasonal demand, creating revenue volatility in off-peak months.
 
-### 2. Peak Performance Windows
-#### The analysis shows that peak transaction volume occurs between 10:00 AM and 3:00 PM, particularly on Tuesdays and Thursdays. Marketing emails sent at 10:00 AM are most likely to convert while users are in their buying window.
+### 2. Midday hours and specific weekdays drive the highest conversions
+#### Transactions peak between 10 AM and 3 PM, especially on Tuesdays and Thursdays, indicating strong customer purchase intent during these periods.
+#### Marketing efforts (e.g., email campaigns at 10 AM) should be concentrated within this window to maximize conversion rates.
 
 <img width="1093" height="621" alt="Screenshot 2026-03-19 111034" src="https://github.com/user-attachments/assets/5436aaad-7fd2-4c9f-af26-124db801f45d" />
 
-### 3. Customer Segmentation
-#### Customer segmentation reveals that a small group of high-value and loyal customers contributes a significant portion of total revenue, while a larger share of customers falls into the at-risk category. This indicates an uneven revenue distribution where business performance depends heavily on a limited number of customers.
+### 3. Revenue is concentrated among a small group of high-value customers
+#### A limited segment of loyal customers contributes a disproportionate share of revenue, while a large portion of customers are classified as at-risk.
+#### The business faces customer concentration risk, making revenue vulnerable if top customers churn.
+
+### 4. Returning customers are the primary revenue drivers
+#### Returning customers contribute the majority of total revenue, confirming that repeat purchases are critical to business sustainability.
+#### Retention strategies will have a higher ROI than acquisition alone.
+
+### 5. High churn risk threatens future revenue stability
+#### A significant number of customers fall into the at-risk category due to inactivity, indicating potential churn.
+#### Without intervention, this could lead to progressive revenue decline, especially if previously active customers are lost.
+
+## Recommendations
+### 1. Replicate peak-period strategies to stabilize low-month sales
+#### Sales spike significantly between September and December. Analyze campaign types, product categories, and pricing strategies used during this period and apply them to low-performing months (e.g., February–April) to reduce seasonal revenue dips.
+
+### 2. Expand the high-value customer segment to reduce revenue concentration risk
+#### Since 52.7% of revenue comes from a small group, introduce targeted upsell and onboarding campaigns for mid-tier customers to move them into high-value status, reducing dependency on a limited segment.
+
+### 3. Increase repeat purchase rate through structured retention programs
+#### With a 65.2% repeat rate, implement automated follow-ups (e.g., post-purchase emails, product recommendations within 7–14 days) to push this higher and maximize customer lifetime value.
+
+### 4. Reduce churn by targeting inactivity patterns
+#### Identify customers who haven’t purchased within a defined window (e.g., 30–60 days) and trigger win-back campaigns (discounts or reminders) to re-engage them before complete drop-off.
+
+### Limitations
+#### While this analysis provides a clear view of revenue and customer segments, it is limited by the lack of COGS data, preventing a true profitability assessment. In a real-world scenario, I would look to integrate shipping costs and marketing spend to calculate Customer Acquisition Cost (CAC) and Contribution Margin.
+
+
+
+
+
 
 
 
