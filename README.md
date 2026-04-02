@@ -2,6 +2,8 @@
 Analysis of online transactional dataset
 
 #### Role: Data Analyst | Tools: Power BI (KPI development, Dashboard design, Data storytelling), SQL (Data cleaning, Customer aggregation, RFM analysis), DAX | ChatGPT (Generative AI for analysis support) | Dataset: Global E-commerce Transactions (500k+ rows)
+
+## Table of Content
 ## Project Overview 
 #### I designed a two-page interactive dashboard to analyze an online retail transactional dataset. The goal was to uncover actionable insights into sales performance, customer behavior, and business opportunities, enabling data-driven decisions for growth and retention.
 
@@ -22,7 +24,7 @@ Analysis of online transactional dataset
 #### •	CustomerID: Unique identifier of the customer
 #### •	Country: Country where the transaction occurred
 
-## Generative AI integration and workflows
+## Generative AI Integration and Workflows
 #### - Leveraged generative AI to formulate targeted business questions, improving the depth and direction of exploratory data analysis.
 #### - Applied AI support to identify and validate key retail KPIs (e.g., customer purchase frequency, average order value) aligned with business objectives.
 #### - Utilized AI to accelerate data cleaning by detecting anomalies such as missing values, duplicate records, and invalid pricing entries.
