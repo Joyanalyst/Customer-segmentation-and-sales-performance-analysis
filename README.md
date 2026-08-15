@@ -6,7 +6,7 @@ Analysis of online transactional dataset
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Business Problem](#business-problem)
-- [Genarative AI Integration and Workflows](#generative-ai-integration-and-workflows)
+- [Generative AI Integration and Workflows](#generative-ai-integration-and-workflows)
 - [Executive Summary](#executive-summary)
 - [Insights](#insights)
 - [Recommendations](#recommendations)
